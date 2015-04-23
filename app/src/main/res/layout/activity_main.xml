@@ -16,7 +16,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="Lesson Two(动画使用)"
+        android:text="Lesson Two(动画的使用)"
         android:layout_marginTop="20dp"
         android:onClick="lessonTwo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Lesson Three(动画使用)"
+        android:layout_marginTop="20dp"
+        android:onClick="lessonThree"/>
 </LinearLayout>
