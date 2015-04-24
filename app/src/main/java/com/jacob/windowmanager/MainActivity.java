@@ -11,6 +11,7 @@ import android.view.View;
 import com.jacob.windowmanager.lesson1.LessonOneActivity;
 import com.jacob.windowmanager.lesson2.LessonTwoActivity;
 import com.jacob.windowmanager.lesson3.LessonThreeActivity;
+import com.jacob.windowmanager.lesson4.LessonFourActivity;
 
 
 public class MainActivity extends FragmentActivity {
@@ -33,6 +34,11 @@ public class MainActivity extends FragmentActivity {
 
     public void lessonThree(View view){
         Intent intent = new Intent(this, LessonThreeActivity.class);
+        startActivity(intent);
+    }
+
+    public void lessonFour(View view){
+        Intent intent = new Intent(this, LessonFourActivity.class);
         startActivity(intent);
     }
 

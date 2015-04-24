@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jacob.windowmanager">
 
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -20,6 +22,7 @@
         <activity android:name=".lesson1.LessonOneActivity" />
         <activity android:name=".lesson2.LessonTwoActivity" />
         <activity android:name=".lesson3.LessonThreeActivity" />
+        <activity android:name=".lesson4.LessonFourActivity" />
     </application>
 
 </manifest>

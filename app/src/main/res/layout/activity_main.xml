@@ -9,20 +9,28 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="Lesson One (基础用法)"
         android:layout_marginTop="20dp"
-        android:onClick="lessonOne"/>
+        android:onClick="lessonOne"
+        android:text="Lesson One (基础用法)" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="Lesson Two(动画的使用)"
         android:layout_marginTop="20dp"
-        android:onClick="lessonTwo"/>
+        android:onClick="lessonTwo"
+        android:text="Lesson Two(动画的使用)" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="Lesson Three(动画使用)"
         android:layout_marginTop="20dp"
-        android:onClick="lessonThree"/>
+        android:onClick="lessonThree"
+        android:text="Lesson Three(动画使用)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:onClick="lessonFour"
+        android:text="Lesson Four(仿美团简易demo)" />
 </LinearLayout>
